@@ -2,7 +2,7 @@ import time
 from ops import *
 from utils import *
 from tensorflow.contrib.data import prefetch_to_device, shuffle_and_repeat, map_and_batch
-
+ 
 class SAGAN(object):
 
     def __init__(self, sess, args):
